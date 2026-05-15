@@ -1,24 +1,27 @@
 import { ArrowUpRight  } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
-  {
-    title: "Fintech Dashboard",
-    description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "E-Commerce Platform",
-    description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
-  },
+{
+  title: "Shopnest",
+  description: "A full-featured e-commerce platform with product catalog, secure payments, order management, and real-time chat support.",
+  image: "/projects/project1.png",
+  tags: [
+    "React",
+    "Vite",
+    "Express.js",
+    "TypeScript",
+    "PostgreSQL",
+    "Drizzle ORM",
+    "Polar Payments",
+    "Clerk Auth",
+    "TailwindCSS",
+    "DaisyUI",
+    "Stream Chat",
+    "ImageKit"
+  ],
+  link: "https://shopnest-wug3.onrender.com/",
+  github: "https://github.com/karuppaiya-dev/react-tailwind-personal-portfolio.git",
+},
   {
     title: "AI Writing Assistant",
     description:
