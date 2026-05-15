@@ -1,5 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
+
 const projects = [
   {
     title: "Shopnest",
