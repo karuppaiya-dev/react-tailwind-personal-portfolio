@@ -1,27 +1,29 @@
-import { ArrowUpRight  } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
-{
-  title: "Shopnest",
-  description: "A full-featured e-commerce platform with product catalog, secure payments, order management, and real-time chat support.",
-  image: "/projects/project1.png",
-  tags: [
-    "React",
-    "Vite",
-    "Express.js",
-    "TypeScript",
-    "PostgreSQL",
-    "Drizzle ORM",
-    "Polar Payments",
-    "Clerk Auth",
-    "TailwindCSS",
-    "DaisyUI",
-    "Stream Chat",
-    "ImageKit"
-  ],
-  link: "https://shopnest-wug3.onrender.com/",
-  github: "https://github.com/karuppaiya-dev/react-tailwind-personal-portfolio.git",
-},
+  {
+    title: "Shopnest",
+    description:
+      "A full-featured e-commerce platform with product catalog, secure payments, order management, and real-time chat support.",
+    image: "/projects/project1.png",
+    tags: [
+      "React",
+      "Vite",
+      "Express.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Polar Payments",
+      "Clerk Auth",
+      "TailwindCSS",
+      "DaisyUI",
+      "Stream Chat",
+      "ImageKit",
+    ],
+    link: "https://shopnest-wug3.onrender.com/",
+    github:
+      "https://github.com/karuppaiya-dev/react-tailwind-personal-portfolio.git",
+  },
   {
     title: "AI Writing Assistant",
     description:
@@ -95,12 +97,12 @@ export const Projects = () => {
                   >
                     <ArrowUpRight className="w-5 h-5" />
                   </a>
-                  {/* <a
+                  <a
                     href={project.github}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
-                    <Github className="w-5 h-5" />
-                  </a> */}
+                    <i class="bi bi-github"></i>
+                  </a>
                 </div>
               </div>
 
@@ -137,11 +139,16 @@ export const Projects = () => {
 
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <a href="https://github.com/karuppaiya-dev?tab=repositories" label="projectsRepo" target="_blank" rel="noreferrer">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
+          <a
+            href="https://github.com/karuppaiya-dev?tab=repositories"
+            label="projectsRepo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AnimatedBorderButton>
+              View All Projects
+              <ArrowUpRight className="w-5 h-5" />
+            </AnimatedBorderButton>
           </a>
         </div>
       </div>
