@@ -23,7 +23,7 @@ const projects = [
     ],
     link: "https://shopnest-wug3.onrender.com/",
     github:
-      "https://github.com/karuppaiya-dev/react-tailwind-personal-portfolio.git",
+      "https://github.com/karuppaiya-dev/Shopnest",
   },
   {
     title: "AI Writing Assistant",
