@@ -22,17 +22,25 @@ const projects = [
       "ImageKit",
     ],
     link: "https://shopnest-wug3.onrender.com/",
-    github:
-      "https://github.com/karuppaiya-dev/Shopnest",
+    github: "https://github.com/karuppaiya-dev/Shopnest",
   },
   {
-    title: "AI Writing Assistant",
+    title: "ConvoHub",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+      "A full-stack chat and video calling application featuring real-time messaging, video calls, authentication, and more. Built with the MERN stack and integrated with Stream for robust chat and video functionalities.",
+    image: "/projects/project1.png",
+    tags: [
+      "React",
+      "Express",
+      "MongoDB",
+      "TailwindCSS",
+      "TanStack Query",
+      "Zustand",
+      "Socket.io",
+      "Stream",
+    ],
+    link: "https://convohub-video-chat.onrender.com/",
+    github: "https://github.com/karuppaiya-dev/convohub-video-chat",
   },
   {
     title: "Project Management Tool",
