@@ -28,7 +28,7 @@ const projects = [
     title: "ConvoHub",
     description:
       "A full-stack chat and video calling application featuring real-time messaging, video calls, authentication, and more. Built with the MERN stack and integrated with Stream for robust chat and video functionalities.",
-    image: "/projects/project1.png",
+    image: "/projects/project2.png",
     tags: [
       "React",
       "Express",
@@ -46,7 +46,7 @@ const projects = [
     title: "Project Management Tool",
     description:
       "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
+    image: "/projects/project3.png",
     tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
     link: "#",
     github: "#",
