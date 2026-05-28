@@ -58,8 +58,8 @@ const projects = [
       "Neon Database",
       "ImageKit",
     ],
-    link: "#",
-    github: "#",
+    link: "https://genpix-ai.vercel.app/",
+    github: "https://github.com/karuppaiya-dev/GenPix-AI",
   },
 ];
 
