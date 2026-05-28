@@ -6,7 +6,7 @@ const projects = [
     title: "Shopnest",
     description:
       "A full-featured e-commerce platform with product catalog, secure payments, order management, and real-time chat support.",
-    image: "/projects/project1.png",
+    image: "/projects/shopnest.png",
     tags: [
       "React",
       "Vite",
@@ -28,7 +28,7 @@ const projects = [
     title: "ConvoHub",
     description:
       "A full-stack chat and video calling application featuring real-time messaging, video calls, authentication, and more. Built with the MERN stack and integrated with Stream for robust chat and video functionalities.",
-    image: "/projects/project2.png",
+    image: "/projects/convohub.png",
     tags: [
       "React",
       "Express",
@@ -43,11 +43,21 @@ const projects = [
     github: "https://github.com/karuppaiya-dev/convohub-video-chat",
   },
   {
-    title: "Project Management Tool",
+    title: "GenPix AI",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project3.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+      "An AI-powered platform enabling users to transform original images into diverse artistic styles, preserving core compositional elements and subject fidelity.",
+    image: "/projects/genpix.png",
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "OpenAI",
+      "Drizzle ORM",
+      "Clerk",
+      "Neon Database",
+      "ImageKit",
+    ],
     link: "#",
     github: "#",
   },
