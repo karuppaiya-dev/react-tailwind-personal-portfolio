@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website built with React, Tailwind CSS, 
 
 **Live Demo:** https://react-tailwind-personal-portfolio-seven.vercel.app/
 
-![Preview](/preview.png)
+![Preview](/public/preview.png)
 
 ## Quick Start
 
